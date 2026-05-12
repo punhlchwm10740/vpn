@@ -95,5 +95,7 @@ proxy-groups:
 rules:
   - MATCH,PROXY
 ```
+配置完成后启动
+<img width="942" height="693" alt="image" src="https://github.com/user-attachments/assets/edaa3c91-f503-41c8-915d-d907922353af" />
 这里可以看到播放直播选择1440p60帧分辨率，依然非常流畅不卡顿延迟非常低。
 <img width="1843" height="918" alt="image" src="https://github.com/user-attachments/assets/0fb8a1e4-e5ae-4d14-9105-1f8f924df7a0" />
