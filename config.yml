@@ -1,0 +1,26 @@
+{
+  "inbounds": [
+    {
+      "port": 443,
+      "protocol": "VLESS",
+      "settings": {
+        "clients": [
+          {
+            "id": "31091234-52b0-4118-812c-c12ea123f110",
+            "alterId": 0
+          }
+        ],
+        "decryption": "none"
+      },
+      "streamSettings": {
+        "network": "tcp"
+      }
+    }
+  ],
+  "outbounds": [
+    {
+      "protocol": "freedom",
+      "settings": {}
+    }
+  ]
+}
