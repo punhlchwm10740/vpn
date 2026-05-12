@@ -52,7 +52,7 @@ services:
   ]
 }
 ```
-3，docker logs -f xray 查询日志无报错并且再后台运行就安装成功了。
+**3，docker logs -f xray 查询日志无报错并且再后台运行就安装成功了。**
 <img width="810" height="113" alt="image" src="https://github.com/user-attachments/assets/0833878b-5288-4bc5-9449-515a46f23307" />
 **pc、安卓、苹果多平台连接使用教程**</br>
 **1，下载对应平台安装包：</br>**
@@ -68,7 +68,7 @@ IOS安装：apple Store切换国外地区账号，搜索Shadowrocket并下载安
 **2，配置vpn与代理服务器建立连接：</br>**
 **window配置，编辑本地配置，右击点击编辑文件**
 <img width="942" height="693" alt="image" src="https://github.com/user-attachments/assets/81b0d03f-c2cd-43e6-83d5-57fa35935d24" />
-clash verge配置，将server替换为自己租的境外服务器ip地址：
+**clash verge配置，将server替换为自己租的境外服务器ip地址：**
 <img width="942" height="693" alt="image" src="https://github.com/user-attachments/assets/e57ad091-4b37-4f20-b5b4-476ca7f8563a" />
 ```vpnconfig
 mixed-port: 7890
@@ -99,7 +99,12 @@ rules:
 <img width="942" height="693" alt="image" src="https://github.com/user-attachments/assets/edaa3c91-f503-41c8-915d-d907922353af" />
 **这里可以看到播放直播选择1440p60帧分辨率，依然非常流畅不卡顿延迟非常低。**
 <img width="1843" height="918" alt="image" src="https://github.com/user-attachments/assets/0fb8a1e4-e5ae-4d14-9105-1f8f924df7a0" />
-**Android系统ClashMetaForAndroid配置及使用：**
-配置文件和windows配置一致拷贝就行
+**Android系统ClashMetaForAndroid配置及使用：</br>**
+**配置文件和windows配置一致拷贝就行**
 <img width="1216" height="2640" alt="image" src="https://github.com/user-attachments/assets/6ef92a09-922e-44d2-9153-fb61abb5666d" />
+<img width="1216" height="2640" alt="e9f7ea12be61adcdfd77325ef214735f" src="https://github.com/user-attachments/assets/c8a226e3-5fb1-473d-9263-8364121e33e9" />
+**点击运行再跑数据就表示正常运行了**
+<img width="1216" height="2640" alt="ca907dd78993d6a0bed7fad8b5be9cc6" src="https://github.com/user-attachments/assets/0db65568-501b-4c33-b7ce-8c4de509c364" />
+**Android 1440p播放直播依然流程不卡顿**
+<img width="1216" height="2640" alt="4b348b4dd0b9495dc28df2c6c3b86604" src="https://github.com/user-attachments/assets/c2e5def5-c224-419b-aeba-6719a3e29fbc" />
 
