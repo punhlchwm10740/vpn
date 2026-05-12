@@ -99,6 +99,7 @@ rules:
 <img width="942" height="693" alt="image" src="https://github.com/user-attachments/assets/edaa3c91-f503-41c8-915d-d907922353af" />
 **这里可以看到播放直播选择1440p60帧分辨率，依然非常流畅不卡顿延迟非常低。**
 <img width="1843" height="918" alt="image" src="https://github.com/user-attachments/assets/0fb8a1e4-e5ae-4d14-9105-1f8f924df7a0" />
+
 **Android系统ClashMetaForAndroid配置及使用：</br>**
 **配置文件和windows配置一致拷贝就行**
 <img width="1216" height="2640" alt="image" src="https://github.com/user-attachments/assets/6ef92a09-922e-44d2-9153-fb61abb5666d" />
@@ -108,3 +109,5 @@ rules:
 **Android 1440p播放直播依然流程不卡顿**
 <img width="1216" height="2640" alt="4b348b4dd0b9495dc28df2c6c3b86604" src="https://github.com/user-attachments/assets/c2e5def5-c224-419b-aeba-6719a3e29fbc" />
 
+**IOS系统配置文件和pc Android都一样不再测试了**
+<img width="1170" height="2532" alt="fbadbc9372ba2588455230857b4b6a95" src="https://github.com/user-attachments/assets/f934c176-1fc1-4f8c-bd7d-567251f276b9" />
