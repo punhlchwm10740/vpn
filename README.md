@@ -23,6 +23,7 @@ services:
     volumes:
       - ./config.json:/etc/xray/config.json
 ```
+
 **config.yml这里的id是uuid，让ai随机生成一个uuid都行，主要用于后续工具连接使用**
 ```config.yml
 {
