@@ -64,7 +64,7 @@ linux端DEB包(Debian系) 64 使用 apt ./路径 安装：https://github.com/cla
 linuxRPM包(Redhat系) 64 使用 dnf ./路径 安装：https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v2.4.7/Clash.Verge-2.4.7-1.x86_64.rpm</br>
 Android64位安装：https://github.com/MetaCubeX/ClashMetaForAndroid/releases/download/v2.11.27/cmfa-2.11.27-meta-arm64-v8a-release.apk</br>
 Android通用安装：https://github.com/MetaCubeX/ClashMetaForAndroid/releases/download/v2.11.27/cmfa-2.11.27-meta-universal-release.apk</br>
-IOS安装：apple Store切换国外地区账号，搜索Shadowrocket并下载安装<img width="100%" height="100%" alt="2fc438d45e249738dbcb06d1cb03ef7a" src="https://github.com/user-attachments/assets/9e7d60d1-1d42-40e2-b549-99f307c9df1c" />
+IOS安装：apple Store切换国外地区账号，搜索Shadowrocket并下载安装<img width="100" height="300" alt="2fc438d45e249738dbcb06d1cb03ef7a" src="https://github.com/user-attachments/assets/9e7d60d1-1d42-40e2-b549-99f307c9df1c" />
 **2，配置vpn与代理服务器建立连接：</br>**
 **window配置，编辑本地配置，右击点击编辑文件**
 <img width="942" height="693" alt="image" src="https://github.com/user-attachments/assets/81b0d03f-c2cd-43e6-83d5-57fa35935d24" />
