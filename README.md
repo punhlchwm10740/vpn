@@ -1,2 +1,8 @@
 # vpn
 便宜搭建个人VPN/科学上网/翻墙/教程/ssr/ss/bbr/梯子搭建/自建机场/自由上网/代理服务/VPN/2026最新教程
+
+搭建自己的 VPN
+很多时候我们需要使用 Google 查询第一手资料，比如官方的文档网站，或者一些文献，虽然市面上有一些 VPN 工具，但是它们不是很稳定，并且不是很安全，比较好的方式就是自己搭建一个属于自己的 VPN 服务，自己掌控。
+
+1,购买任意
+<img width="506" height="231" alt="image" src="https://github.com/user-attachments/assets/bcc7d226-2437-4c35-91a4-5a248ab69197" />
