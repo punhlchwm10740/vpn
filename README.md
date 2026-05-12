@@ -65,4 +65,35 @@ linuxRPM包(Redhat系) 64 使用 dnf ./路径 安装：https://github.com/clash-
 Android64位安装：https://github.com/MetaCubeX/ClashMetaForAndroid/releases/download/v2.11.27/cmfa-2.11.27-meta-arm64-v8a-release.apk</br>
 Android通用安装：https://github.com/MetaCubeX/ClashMetaForAndroid/releases/download/v2.11.27/cmfa-2.11.27-meta-universal-release.apk</br>
 IOS安装：apple Store切换国外地区账号，搜索Shadowrocket并下载安装<img width="1170" height="2532" alt="2fc438d45e249738dbcb06d1cb03ef7a" src="https://github.com/user-attachments/assets/9e7d60d1-1d42-40e2-b549-99f307c9df1c" />
-2，
+2，配置vpn与代理服务器建立连接：</br>
+window配置，编辑本地配置，右击点击编辑文件
+<img width="942" height="693" alt="image" src="https://github.com/user-attachments/assets/81b0d03f-c2cd-43e6-83d5-57fa35935d24" />
+clash verge配置，将server替换为自己租的境外服务器ip地址：
+<img width="942" height="693" alt="image" src="https://github.com/user-attachments/assets/e57ad091-4b37-4f20-b5b4-476ca7f8563a" />
+```vpnconfig
+mixed-port: 7890
+allow-lan: false
+log-level: debug
+ipv6: false
+
+proxies:
+  - name: "我的VPS"
+    type: vless
+    server: 123.123.123.123
+    port: 1443
+    uuid: 31091234-52b0-4118-812c-c12ea123f110
+    tls: false
+    network: tcp
+    udp: true
+
+proxy-groups:
+  - name: "PROXY"
+    type: select
+    proxies:
+      - "我的VPS"
+
+rules:
+  - MATCH,PROXY
+```
+这里可以看到播放直播选择1440p60帧分辨率，依然非常流畅不卡顿延迟非常低。
+<img width="1843" height="918" alt="image" src="https://github.com/user-attachments/assets/0fb8a1e4-e5ae-4d14-9105-1f8f924df7a0" />
