@@ -8,7 +8,7 @@
 **搭建教程**</br>
 1,购买任意境外云服务器，https://www.vultr.com/ 等等，这里博主选择18/月，150M上下行带宽，300g/月流量，基本用不完，看油管那些看不完。
 <img width="506" height="231" alt="image" src="https://github.com/user-attachments/assets/bcc7d226-2437-4c35-91a4-5a248ab69197" />
-2，使用ssh远程连接工具连接服务器，这里博主选择FinalShell,在这台境外服务器上安装docker、docker-compose(docker、docker-compose安装教程可以ai搜索docker安装教程，这里不再赘述)，创建docker-compose.yml，贴入以下配置：
+2，使用ssh远程连接工具连接服务器，这里博主选择FinalShell,在这台境外服务器上安装docker、docker-compose(docker、docker-compose安装教程可以ai搜索docker安装教程，这里不再赘述)，创建docker-compose.yml、config.yml，贴入以下配置：
 ```docker-compose.yml
 version: '3'
 services:
@@ -20,4 +20,33 @@ services:
       - "1443:443"
     volumes:
       - ./config.json:/etc/xray/config.json
+```
+config.yml这里的id是uuid，让ai随机生成一个uuid都行，主要用于后续工具连接使用
+```config.yml
+{
+  "inbounds": [
+    {
+      "port": 443,
+      "protocol": "VLESS",
+      "settings": {
+        "clients": [
+          {
+            "id": "31091234-52b0-4118-812c-c67ea123f110",
+            "alterId": 0
+          }
+        ],
+        "decryption": "none"
+      },
+      "streamSettings": {
+        "network": "tcp"
+      }
+    }
+  ],
+  "outbounds": [
+    {
+      "protocol": "freedom",
+      "settings": {}
+    }
+  ]
+}
 ```
