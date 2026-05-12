@@ -1,0 +1,23 @@
+mixed-port: 7890
+allow-lan: false
+log-level: debug
+ipv6: false
+
+proxies:
+  - name: "我的VPS"
+    type: vless
+    server: 123.123.123.123
+    port: 1443
+    uuid: 31091234-52b0-4118-812c-c12ea123f110
+    tls: false
+    network: tcp
+    udp: true
+
+proxy-groups:
+  - name: "PROXY"
+    type: select
+    proxies:
+      - "我的VPS"
+
+rules:
+  - MATCH,PROXY
